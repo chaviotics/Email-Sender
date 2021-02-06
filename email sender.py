@@ -10,7 +10,7 @@ email.set_content('Hello Chav!') # can send stuff
 
 # smtp sends to email
 
-with smtplib.SMTP(host='smpt.gmail.com', port=587) as smtp:
+with smtplib.SMTP(host='smtp.gmail.com', port=587) as smtp:
     smtp.ehlo()
     smtp.starttls() # encryption mechanism
     smtp.login('icearchts@gmail.com', 'emiliepp2')
