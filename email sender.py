@@ -1,3 +1,6 @@
+# please turn on Less secure app access
+# @ https://myaccount.google.com/u/2/lesssecureapps?gar=1&pli=1&rapt=AEjHL4NQRH1n24FZzgWUzMdBUOcfSc6XckroqMUe2BlR18FnBr1pZC93vd1T5slGujrLINEJBXK-ilu9kXMrrhQtZz__U07xag
+
 import smtplib # allows us to create an SMT server
 from email.message import EmailMessage # built-in
 from string import Template # using $, we can sbustitute variables
